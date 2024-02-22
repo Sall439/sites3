@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+nav h1 {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+nav span {
+    color: orangered;
+}
+
+nav .onglets {
+    display: flex;
+    align-items: center;
+}
+
+nav .onglets ul {
+    display: flex;
+}
+
+nav .onglets ul li a {
+    color: black;
+    margin-right: 10px;
+    font-size: 19px;
+}
+
+nav .onglets ul li a:hover {
+    border-bottom: 2px solid red;
+    transition: 0.3s;
+}
+
+nav .onglets input {
+    background-color: rgb(215, 219, 223);
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+nav .onglets .icone {
+    padding: 10px;
+}
+
+nav .onglets .icone i {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+header {
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    max-width: 400px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    font-family: "Oswald", sans-serif;
+}
+
+header button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(215, 219, 223);
+    cursor: pointer;
+}
+
+.main {
+    margin-top: 50px;
+    padding: 30px;
+}
+
+.main h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.main .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.main .cards .card {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.main .cards .card img {
+    width: 500px;
+}
+
+
+footer {
+    margin-top: 50px;
+    background-color: black;
+    color: #fff;
+}
+
+footer .content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .content .cont h1 {
+    font-family: "Oswald", sans-serif;
+}
+
+footer .content .cont p {
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+footer .content .cont .icone {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+footer .content .cont .icone i {
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+footer h2 {
+    text-align: center;
+    margin-top: 70px;
+}
